@@ -2,7 +2,7 @@
 
 Post a notification on Slack whenever your project is published.
 Presumably you already know this is happening so it's probably more
-non-you people, such as your team or your grandparents.
+useful to non-you people, such as your team or your grandparents.
 
 ## Installation
 
