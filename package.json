@@ -1,0 +1,9 @@
+{
+  "name": "expo-postpublish-slack-notify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "slack-notify": "^0.1.6"
+  }
+}
