@@ -14,6 +14,7 @@ module.exports = ({ url, iosManifest, config }) => {
         text: `${iosManifest.name} v${iosManifest.version} published to ${url + queryString}`,
         unfurl_links: 0,
         username: config.username || 'ExpoBot',
+        channel: config.channel || ''
       },
       err => {
         if (err) {

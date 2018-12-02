@@ -17,7 +17,8 @@ useful to non-you people, such as your team or your grandparents.
         "file": "expo-postpublish-slack-notify",
         "config": {
           "webhookUrl": "your webhook url here",
-          "username": "thisIsOptionalAndIsAValidSlackUsername"
+          "username": "thisIsOptionalAndIsAValidSlackUsername",
+          "channel": "#channel_other_than_default"
         }
       }
     ]
