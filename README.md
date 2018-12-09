@@ -8,7 +8,7 @@ useful to non-you people, such as your team or your grandparents.
 
 1. [Create an incoming webhook](https://api.slack.com/incoming-webhooks) and keep the window open with the URL.
 2. `yarn add expo-postpublish-slack-notify` in your project.
-3. Add the following to your `exp.json`
+3. Add the following to your `app.json` within the "expo" key.
 
 ```javascript
   "hooks": {
