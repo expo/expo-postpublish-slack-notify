@@ -18,6 +18,7 @@ useful to non-you people, such as your team or your grandparents.
         "config": {
           "webhookUrl": "your webhook url here",
           "username": "thisIsOptionalAndIsAValidSlackUsername",
+          "icon_url": "thisIsOptionalAndIsAValidImageURLForTheBotsAvatar",
           "channel": "#channel_other_than_default"
         }
       }

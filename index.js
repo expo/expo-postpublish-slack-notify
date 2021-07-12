@@ -10,7 +10,7 @@ module.exports = ({ url, iosManifest, config }) => {
    
     slack.send(
       {
-        icon_url: iosManifest.iconUrl,
+        icon_url: config['icon_url'] || iosManifest.iconUrl,
         text: `${iosManifest.name} v${iosManifest.version} published to ${url + queryString}`,
         unfurl_links: 0,
         username: config.username || 'ExpoBot',
